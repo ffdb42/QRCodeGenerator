@@ -1,0 +1,16 @@
+C:\Users\faufd\Desktop\QRCodeGenerator\bin\Debug\QRCodeGenerator.exe.config
+C:\Users\faufd\Desktop\QRCodeGenerator\bin\Debug\QRCodeGenerator.exe
+C:\Users\faufd\Desktop\QRCodeGenerator\bin\Debug\QRCodeGenerator.pdb
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\QRCodeGenerator.csprojAssemblyReference.cache
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\MainWindow.g.cs
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\App.g.cs
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\QRCodeGenerator_MarkupCompile.cache
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\QRCodeGenerator_MarkupCompile.lref
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\MainWindow.baml
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\QRCodeGenerator.g.resources
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\QRCodeGenerator.Properties.Resources.resources
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\QRCodeGenerator.csproj.GenerateResource.cache
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\QRCodeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\QRCodeGenerator.exe
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\QRCodeGenerator.pdb
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\GeneratedInternalTypeHelper.g.cs
