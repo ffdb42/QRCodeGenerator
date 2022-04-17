@@ -324,9 +324,9 @@ namespace QRCodeGenerator.Models
             return picture;
         }
 
-        public void SaveImage(string path, string format)
+        public void SaveImage(string path)
         {
-            picture.Save(path+"."+format);
+            picture.Save(path);
         }
     }
 }

@@ -124,7 +124,7 @@ namespace QRCodeGenerator
             return result;
         }
 
-        public bool SaveImage(string path, string format)
+        public bool SaveImage(string path)
         {
             if (_qrImage is null)
             {
@@ -132,7 +132,7 @@ namespace QRCodeGenerator
             }
             else
             {
-                renderer.SaveImage(path, format);
+                renderer.SaveImage(path);
                 return true;
             }
         }

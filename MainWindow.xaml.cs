@@ -32,7 +32,7 @@ namespace QRCodeGenerator
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            if (!qrVM.SaveImage(DateTime.Now.ToString("ssmmHHdMMyy"), "png"))
+            if (!qrVM.SaveImage(DateTime.Now.ToString("ssmmHHdMMyy")+".png"))
                 MessageBox.Show("Необходимо сгенерировать изображение.", "Отсутствует изображение.", MessageBoxButton.OK);
         }
 
@@ -40,11 +40,12 @@ namespace QRCodeGenerator
         {
             string path=string.Empty;
             SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "PNG|*.png|JPEG|*.jpeg";
             if (saveFileDialog.ShowDialog() == true)
             {
                 path = saveFileDialog.FileName;
             }
-            if (!qrVM.SaveImage(path, "png"))
+            if (!qrVM.SaveImage(path))
                 MessageBox.Show("Необходимо сгенерировать изображение.", "Отсутствует изображение.", MessageBoxButton.OK);
         }
 
@@ -85,5 +86,11 @@ namespace QRCodeGenerator
             this.DataTextBox.Text = qrVM.ReadFromFile(path);
         }
 
+        private void InfoButton_Click(object sender, RoutedEventArgs e)
+        {
+            InfoWindow infoWindow = new InfoWindow();
+            infoWindow.Owner = this;
+            infoWindow.Show();
+        }
     }
 }

@@ -14,3 +14,5 @@ C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\QRCodeGenerator.csproj.CoreComp
 C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\QRCodeGenerator.exe
 C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\QRCodeGenerator.pdb
 C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\InfoWindow.g.cs
+C:\Users\faufd\Desktop\QRCodeGenerator\obj\Debug\InfoWindow.baml
