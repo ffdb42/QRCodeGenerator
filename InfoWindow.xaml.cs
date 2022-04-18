@@ -13,10 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 namespace QRCodeGenerator
-{
-    /// <summary>
-    /// Логика взаимодействия для InfoWindow.xaml
-    /// </summary>
+{ 
     public partial class InfoWindow : Window
     {
         public InfoWindow()

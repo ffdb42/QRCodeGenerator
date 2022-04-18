@@ -139,9 +139,16 @@ namespace QRCodeGenerator
 
         public string ReadFromFile(string path)
         {
-            using (StreamReader reader = new StreamReader(path))
+            if (path.Length != 0)
             {
-                return reader.ReadToEnd();
+                using (StreamReader reader = new StreamReader(path))
+                {
+                    return reader.ReadToEnd();
+                }
+            }
+            else
+            {
+                return string.Empty;
             }
         }
 

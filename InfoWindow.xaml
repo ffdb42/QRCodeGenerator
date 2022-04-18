@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QRCodeGenerator"
         mc:Ignorable="d"
-        Title="Информация" Height="600" Width="480">
+        Title="Информация" Height="600" Width="480"
+        ResizeMode="NoResize">
     <TabControl>
         <TabItem>
             <TabItem.Header>

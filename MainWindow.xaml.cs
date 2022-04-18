@@ -5,9 +5,6 @@ using Microsoft.Win32;
 
 namespace QRCodeGenerator
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         QRViewModel qrVM = new QRViewModel();

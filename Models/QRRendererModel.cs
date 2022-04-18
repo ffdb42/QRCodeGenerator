@@ -326,7 +326,11 @@ namespace QRCodeGenerator.Models
 
         public void SaveImage(string path)
         {
-            picture.Save(path);
+            if (path.Length != 0)
+            {
+                picture.Save(path);
+            }
         }
     }
 }
+
